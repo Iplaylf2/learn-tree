@@ -1,5 +1,5 @@
 #include <binary-search-tree.hpp>
 
-using namespace BinarySearchTreeNS;
+using namespace LearnTree;
 
 int BinarySearchTree::test = 123;

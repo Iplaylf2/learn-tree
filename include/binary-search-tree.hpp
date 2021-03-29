@@ -1,4 +1,4 @@
-namespace BinarySearchTreeNS
+namespace LearnTree
 {
     struct BinarySearchTree
     {

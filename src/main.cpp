@@ -4,5 +4,5 @@
 int main(int, char **)
 {
     std::cout << "Hello, world!\n"
-              << BinarySearchTreeNS::BinarySearchTree::test;
+              << LearnTree::BinarySearchTree::test;
 }
