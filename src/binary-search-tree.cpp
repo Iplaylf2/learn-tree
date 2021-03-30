@@ -3,4 +3,7 @@
 
 using namespace LearnTree;
 
-int BinarySearchTree::test = 123; 
+struct BinarySearchTreeImpl
+{
+    
+};

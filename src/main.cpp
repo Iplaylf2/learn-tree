@@ -3,6 +3,5 @@
 
 int main(int, char **)
 {
-    std::cout << "Hello, world!\n"
-              << LearnTree::BinarySearchTree::test;
+    std::cout << "Hello, world!\n";
 }
