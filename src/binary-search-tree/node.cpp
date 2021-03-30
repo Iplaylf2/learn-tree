@@ -1,6 +1,6 @@
 #include <iostream>
 
-namespace LearnTree
+namespace binary_search_tree
 {
     struct Node
     {

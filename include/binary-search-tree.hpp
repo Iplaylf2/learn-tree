@@ -1,4 +1,4 @@
-namespace LearnTree
+namespace binary_search_tree
 {
     struct BinarySearchTree
     {
@@ -16,7 +16,7 @@ namespace LearnTree
         const int length;
 
     private:
-        struct BinarySearchTreeImpl *impl;
+        struct BinarySearchTreeImpl &impl;
     };
 
 }
