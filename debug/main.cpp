@@ -3,5 +3,7 @@
 
 int main(int, char **)
 {
+    bst::BinarySearchTree t = bst::BinarySearchTree();
+    t.push(1);
     std::cout << "Hello, world!\n";
 }

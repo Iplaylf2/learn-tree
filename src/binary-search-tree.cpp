@@ -3,7 +3,15 @@
 
 namespace bst
 {
-    struct BinarySearchTree
+    BinarySearchTree::BinarySearchTree() : length(0)
     {
-    };
+    }
+
+    BinarySearchTree::~BinarySearchTree()
+    {
+    }
+
+    void BinarySearchTree::push(int x)
+    {
+    }
 }

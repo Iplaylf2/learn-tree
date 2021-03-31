@@ -1,3 +1,4 @@
+#include <binary-search-tree.hpp>
 #include <iostream>
 
 namespace bst
