@@ -2,7 +2,7 @@ namespace bst
 {
 #ifndef LEARN_TREE_BST
 #define LEARN_TREE_BST
-    struct BinarySearchTree
+    class BinarySearchTree
     {
     public:
         BinarySearchTree();
@@ -18,7 +18,7 @@ namespace bst
         const int length;
 
     private:
-        struct Node *root;
+        class Node *root;
     };
 #endif
 }

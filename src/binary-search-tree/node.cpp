@@ -3,7 +3,7 @@
 
 namespace bst
 {
-    struct Node
+    class Node
     {
     public:
         static Node *create(int value)
