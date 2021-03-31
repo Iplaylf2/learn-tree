@@ -1,22 +1,13 @@
-namespace binary_search_tree
+namespace bst
 {
-    struct BinarySearchTree
-    {
-    public:
-        BinarySearchTree();
-        ~BinarySearchTree();
-        void push(int x);
-        int pop();
-        int find(int x);
-        int get(int i);
-        void insert(int i, int x);
-        int del(int i);
-        int min();
-        int max();
-        const int length;
-
-    private:
-        struct BinarySearchTreeImpl &impl;
-    };
-
-}
+    struct BinarySearchTree;
+    void push(BinarySearchTree &t, int x);
+    int pop(BinarySearchTree &t);
+    int find(BinarySearchTree &t, int x);
+    int get(BinarySearchTree &t, int i);
+    void insert(BinarySearchTree &t, int i, int x);
+    int del(BinarySearchTree &t, int i);
+    int min(BinarySearchTree &t);
+    int max(BinarySearchTree &t);
+    int length(BinarySearchTree &t);
+};

@@ -1,9 +1,9 @@
 #include <binary-search-tree.hpp>
-#include <binary-search-tree/node.cpp>
+#include <node.cpp>
 
-using namespace binary_search_tree;
-
-struct BinarySearchTreeImpl
+namespace bst
 {
-    
-};
+    struct BinarySearchTree
+    {
+    };
+}

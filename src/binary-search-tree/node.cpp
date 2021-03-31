@@ -1,6 +1,6 @@
 #include <iostream>
 
-namespace binary_search_tree
+namespace bst
 {
     struct Node
     {
@@ -32,12 +32,12 @@ namespace binary_search_tree
                 auto &branch = value < current->value ? current->less : current->greater;
                 if (NULL == branch)
                 {
-                    branch == new_node;
+                    branch = new_node;
                     break;
                 }
                 else
                 {
-                    current == branch;
+                    current = branch;
                     continue;
                 }
             }
